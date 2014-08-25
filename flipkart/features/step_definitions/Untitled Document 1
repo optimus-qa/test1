@@ -1,0 +1,8 @@
+class HostconfigurationPage
+    include PageObject
+
+text_field :hosts_group_name, :name => "name", :frame => monarch_main , :frame => myframe
+text_field :hosts_group_alias, :name => "alias", :frame => monarch_main , :frame => myframe
+text_field :hosts_group_address, :name => "address", :frame => monarch_main , :frame => myframe
+select_list :host_profile, :name => 'host_profile', :frame => monarch_main , :frame => myframe
+
